@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     knowledge.insert(
         url="https://static.poder360.com.br/uploads/2026/08/Programa-Governo-LULA-2026.pdf",
-        metadata={"title": "Proposta de Governo Lula 2026"},
+
         skip_if_exists=True,
         reader=PDFReader()
     )
