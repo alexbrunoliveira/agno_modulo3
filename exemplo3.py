@@ -7,7 +7,8 @@ import streamlit as st
 from streamlit.runtime.scriptrunner import get_script_run_ctx
 
 AGENT_ID = "agente_pdf"
-ENDPOINT = f"http://localhost:7777/agents/{AGENT_ID}/runs"
+ENDPOINT = f"https://modulo3-api-ojva.onrender.com/{AGENT_ID}/runs"
+#ENDPOINT = f"http://localhost:7777/agents/{AGENT_ID}/runs"
 
 
 # 2 - Conexao com o Agno e Streaming ===========================
